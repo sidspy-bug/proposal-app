@@ -1,0 +1,52 @@
+/* =======================
+   APP ROOT STYLES
+======================= */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* =======================
+   DEFAULT APP WRAPPER
+======================= */
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* =======================
+   IMAGE SAFETY
+======================= */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* =======================
+   LINK RESET
+======================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =======================
+   REMOVE DEFAULT FOCUS OUTLINE (OPTIONAL)
+======================= */
+
+button:focus {
+  outline: none;
+}
+
+/* =======================
+   SCROLL SMOOTHNESS
+======================= */
+
+html {
+  scroll-behavior: smooth;
+}
