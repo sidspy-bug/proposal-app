@@ -23,11 +23,11 @@ export default function Memories() {
 
   const photos = [
     {
-      img: "/her1.jpeg",
+      img: "her1.jpeg",
       text: "You didn’t just stand by me — you understood me."
     },
     {
-      img: "/her2.jpeg",
+      img: "her2.jpeg",
       text: "Your love feels calm, steady, and safe — like home."
     }
   ];
