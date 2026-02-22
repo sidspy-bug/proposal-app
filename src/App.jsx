@@ -36,8 +36,8 @@ function App() {
     <>
       {/* 🎵 Background Music */}
       <audio ref={audioRef} loop preload="auto">
-        <source src="/music.mp3" type="audio/mp3" />
-      </audio>
+  <source src="./music.mp3" type="audio/mp3" />
+</audio>
 
       {/* 🚪 First Screen */}
       {!started ? (
